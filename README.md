@@ -2,7 +2,7 @@
 
 This repository provides KFS-Bench dataset and evaluation code from the paper:
 ```text
-Z. Li, K. Ishida, S. Yamazaki, X. Ji and J. Liu, "KFS-Bench: Direct and Comprehensive Evaluation of Key Frame Sampling in Long Video Understanding", IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Tucson, Arizona, 2026.
+Z. Li, K. Ishida, S. Yamazaki, X. Ji and J. Liu, "KFS-Bench: Comprehensive Evaluation of Key Frame Sampling in Long Video Understanding", IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Tucson, Arizona, 2026.
 ```
 
 KFS-Bench is the first benchmark for long video QA with multi-scene annotations, enabling direct evaluation of key frame sampling.
@@ -38,7 +38,7 @@ The model result JSON file must have the following structure:
 [
   {
     "id": "video_identifier",
-    "frame_timestamps": [1.5, 3.2, 5.8, ...]
+    "frame_timestamps": [1.5, 3.2, 5.8, ]
   },
 ]
 ```
